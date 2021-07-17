@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://pttk.herokuapp.com",
-    "contentApiKey": "ae3d09dcb1b6b781b327db5721"
+    "apiUrl": "https://pttk.nas.anarion.pl",
+    "contentApiKey": "f5f08258c0c713c9beb5170c02"
   },
   "production": {
-    "apiUrl": "https://pttk.herokuapp.com",
-    "contentApiKey": "ae3d09dcb1b6b781b327db5721"
+    "apiUrl": "https://pttk.nas.anarion.pl",
+    "contentApiKey": "f5f08258c0c713c9beb5170c02"
   }
 }
