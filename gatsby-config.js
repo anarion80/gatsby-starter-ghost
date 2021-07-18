@@ -93,26 +93,26 @@ module.exports = {
               `,
             },
         },
-        {
-            resolve: `gatsby-plugin-feed`,
-            options: {
-                query: `
-                {
-                    allGhostSettings {
-                        edges {
-                            node {
-                                title
-                                description
-                            }
-                        }
-                    }
-                }
-              `,
-                feeds: [
-                    generateRSSFeed(config),
-                ],
-            },
-        },
+        //{
+        //    resolve: `gatsby-plugin-feed`,
+        //    options: {
+        //        query: `
+        //        {
+        //            allGhostSettings {
+        //                edges {
+        //                    node {
+        //                        title
+        //                        description
+        //                    }
+        //                }
+        //            }
+        //        }
+        //      `,
+        //        feeds: [
+        //            generateRSSFeed(config),
+        //        ],
+        //    },
+        //},
         {
             resolve: `gatsby-plugin-advanced-sitemap`,
             options: {
